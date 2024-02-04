@@ -1,11 +1,14 @@
 import React from "react";
 import "./custom.css";
+import { useNavigate } from "react-router-dom";
 
 function ImageBtn(props) {
+  const navigate = useNavigate();
+
   const imagePath = "image/" + props.imageName + ".png";
 
   const handleOnClick = () => {
-    console.log("clicled...");
+    props.imageName === "boy" ? navigate("/boys") : navigate("/girls");
   };
 
   return (

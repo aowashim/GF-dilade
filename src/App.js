@@ -4,6 +4,8 @@ import Landing from "./pages/Landing";
 import NavBar from "./components/NavBar";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
+import ForBoys from "./pages/ForBoys";
+import ForGirls from "./pages/ForGirls";
 
 function App() {
   const router = createBrowserRouter([
@@ -14,6 +16,14 @@ function App() {
     {
       path: "/home",
       element: <Home />,
+    },
+    {
+      path: "/boys",
+      element: <ForBoys />,
+    },
+    {
+      path: "/girls",
+      element: <ForGirls />,
     },
   ]);
 

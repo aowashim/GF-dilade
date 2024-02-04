@@ -1,7 +1,6 @@
 import Typography from "@mui/material/Typography";
 import React from "react";
 import ImageBtn from "../components/ImageBtn";
-import { Box } from "@mui/material";
 
 function Home() {
   return (
