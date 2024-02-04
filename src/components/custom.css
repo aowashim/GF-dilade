@@ -1,0 +1,16 @@
+.app-bar {
+  background-image: linear-gradient(to right, #261822, #5c2971);
+}
+
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.btn-back {
+  background-image: linear-gradient(to right, #261822, #5c2971);
+}
+
+.btn-back:hover {
+  background-image: linear-gradient(to right, #452b3e, #72348b);
+  font-weight: 700;
+}
