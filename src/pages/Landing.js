@@ -2,8 +2,11 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import * as React from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
+import { useNavigate } from "react-router-dom";
 
 function Landing() {
+  const navigate = useNavigate();
+
   return (
     <div>
       <Typography
@@ -55,6 +58,7 @@ function Landing() {
           variant="contained"
           endIcon={<NavigateNextIcon />}
           size="large"
+          onClick={() => navigate("/home")}
         >
           Continue
         </Button>
