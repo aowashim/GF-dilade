@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GF-dilade/static/css/main.298cb4ea.css",
-    "main.js": "/GF-dilade/static/js/main.723fe431.js",
+    "main.js": "/GF-dilade/static/js/main.f978f305.js",
     "static/js/592.f96ca860.chunk.js": "/GF-dilade/static/js/592.f96ca860.chunk.js",
     "index.html": "/GF-dilade/index.html",
     "main.298cb4ea.css.map": "/GF-dilade/static/css/main.298cb4ea.css.map",
-    "main.723fe431.js.map": "/GF-dilade/static/js/main.723fe431.js.map",
+    "main.f978f305.js.map": "/GF-dilade/static/js/main.f978f305.js.map",
     "592.f96ca860.chunk.js.map": "/GF-dilade/static/js/592.f96ca860.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.298cb4ea.css",
-    "static/js/main.723fe431.js"
+    "static/js/main.f978f305.js"
   ]
 }
