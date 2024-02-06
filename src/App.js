@@ -1,8 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Landing from "./pages/Landing";
 import NavBar from "./components/NavBar";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  Navigate,
+  RouterProvider,
+  createBrowserRouter,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import ForBoys from "./pages/ForBoys";
 import ForGirls from "./pages/ForGirls";
@@ -24,6 +27,10 @@ function App() {
     {
       path: "/girls",
       element: <ForGirls />,
+    },
+    {
+      path: "*",
+      element: <Navigate to="/" replace />,
     },
   ]);
 
