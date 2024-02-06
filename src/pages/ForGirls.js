@@ -24,7 +24,7 @@ function ForGirls() {
     <>
       <ReactConfetti width={width} height={height} />
 
-      <div style={{ display: "flex", justifyContent: "center", marginTop: 20 }}>
+      <div style={{ display: "flex", justifyContent: "center", marginTop: 10 }}>
         <video
           src="video/Owashim.mp4"
           height="600px"

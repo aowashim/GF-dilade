@@ -25,7 +25,7 @@ function Home() {
           flexWrap: "wrap",
         }}
       >
-        <div style={{ marginTop: 20, marginBottom: 25 }}>
+        <div style={{ marginTop: 25, marginBottom: 25 }}>
           <ImageBtn imageName="boy" />
         </div>
         <ImageBtn imageName="girl" />

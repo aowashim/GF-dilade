@@ -5,8 +5,12 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import "./custom.css";
+import IconButton from "@mui/material/IconButton";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 function NavBar() {
+  const instaUrl = "https://www.instagram.com/aowashim/";
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar className="app-bar" position="static">
@@ -14,7 +18,6 @@ function NavBar() {
           <FavoriteIcon
             size="large"
             edge="start"
-            aria-label="menu"
             sx={{ mr: 2, color: "#a26499" }}
           ></FavoriteIcon>
           <Typography
@@ -24,6 +27,14 @@ function NavBar() {
           >
             Bhai GF dilade
           </Typography>
+
+          <IconButton
+            onClick={() => window.open(instaUrl, "_blank")}
+            aria-label="social"
+            size="large"
+          >
+            <InstagramIcon style={{ color: "rgb(209 188 206)" }} />
+          </IconButton>
         </Toolbar>
       </AppBar>
     </Box>

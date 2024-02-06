@@ -16,7 +16,7 @@ function ImageBtn(props) {
       onClick={handleOnClick}
       className="image-btn"
       src={imagePath}
-      height="95px"
+      height="100px"
     />
   );
 }
