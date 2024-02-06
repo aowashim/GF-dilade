@@ -11,28 +11,31 @@ import ForBoys from "./pages/ForBoys";
 import ForGirls from "./pages/ForGirls";
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Landing />,
-    },
-    {
-      path: "/home",
-      element: <Home />,
-    },
-    {
-      path: "/boys",
-      element: <ForBoys />,
-    },
-    {
-      path: "/girls",
-      element: <ForGirls />,
-    },
-    {
-      path: "*",
-      element: <Navigate to="/" replace />,
-    },
-  ]);
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <Landing />,
+      },
+      {
+        path: "/home",
+        element: <Home />,
+      },
+      {
+        path: "/boys",
+        element: <ForBoys />,
+      },
+      {
+        path: "/girls",
+        element: <ForGirls />,
+      },
+      {
+        path: "*",
+        element: <Navigate to="/" replace />,
+      },
+    ],
+    { basename: "/GF-dilade" }
+  );
 
   return (
     <>
